@@ -12,7 +12,7 @@ import random
 # test11
 if 'SUMO_HOME' in os.environ:
     sys.path.append(os.path.join(os.environ['SUMO_HOME'], 'tools'))
-#test2
+
 def get_options(args=None):
     opt_parser = optparse.OptionParser()
     opt_parser.add_option("--nogui", action="store_true", default=False, help="run the commandline version of sumo")
