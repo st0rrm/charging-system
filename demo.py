@@ -64,6 +64,7 @@ def run():
             else:
                 # vehicle 상태가 Running이면
                 # 시간이 지남에 따라 배터리 양을 1씩 감소
+                # test
                 if vehicle.getParameter(vehicle_id, "state") == "running":
                     battery_amount = int(vehicle.getParameter(vehicle_id, "actualBatteryCapacity"))
                     battery_amount -= 1
